@@ -1,16 +1,13 @@
+import java.util.Scanner;
+
 public class Main {
-    public static void main(String[] args) {
-        // Задача A + B -----------------------------------------------------------
-        /*
-        Scanner input = new Scanner(System.in);
-        System.out.println(input.nextInt() + input.nextInt());
-        input.close();
 
-         */
-        // ------------------------------------------------------------------------
-
-        // Задача Следующее четное -----------------------------------------------------------
-
-        // -----------------------------------------------------------------------------------
+    public static void main(String[] args)
+    {
+        Scanner in = new Scanner(System.in);
+        int a = in.nextInt();
+        int b = in.nextInt();
+        System.out.println(a * a + b * b);
+        in.close();
     }
 }

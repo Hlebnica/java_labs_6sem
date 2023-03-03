@@ -1,0 +1,1 @@
+Amount amount1 = new Amount();
